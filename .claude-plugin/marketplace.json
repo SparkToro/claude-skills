@@ -1,0 +1,21 @@
+{
+  "name": "sparktoro",
+  "owner": {
+    "name": "SparkToro",
+    "email": "support@sparktoro.com"
+  },
+  "metadata": {
+    "description": "Official SparkToro skills and connector for Claude"
+  },
+  "plugins": [
+    {
+      "name": "sparktoro",
+      "source": "./plugins/sparktoro",
+      "description": "Audience research skills plus the SparkToro connector: find where any audience spends time online, what they read, watch, listen to and follow.",
+      "version": "0.1.0",
+      "homepage": "https://sparktoro.com/mcp",
+      "category": "marketing",
+      "keywords": ["audience research", "marketing", "sparktoro"]
+    }
+  ]
+}

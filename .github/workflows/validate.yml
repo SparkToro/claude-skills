@@ -1,0 +1,21 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Versions agree
+        run: scripts/check-versions.sh
+      - name: Validate marketplace and plugins
+        run: npx -y @anthropic-ai/claude-code plugin validate .
+      - name: Zips build
+        run: scripts/build-zips.sh

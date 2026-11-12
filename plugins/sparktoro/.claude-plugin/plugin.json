@@ -1,0 +1,13 @@
+{
+  "name": "sparktoro",
+  "version": "0.1.0",
+  "description": "Audience research with SparkToro data: where an audience spends time online, what they read, watch, listen to and follow.",
+  "author": {
+    "name": "SparkToro",
+    "email": "support@sparktoro.com",
+    "url": "https://sparktoro.com"
+  },
+  "homepage": "https://sparktoro.com/mcp",
+  "repository": "https://github.com/SparkToro/claude-skills",
+  "keywords": ["audience research", "marketing", "sparktoro"]
+}
